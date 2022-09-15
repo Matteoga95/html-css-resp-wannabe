@@ -130,7 +130,63 @@ img {
 /************************************************
      SOLUZIONE RESPONSIVE
   ************************************************/
+  @media screen and (max-width: 768px) {
 
+
+
+    /* LAYOUT */
+    .container {
+        width: 768px;
+        margin: 0 auto;
+    
+    }
+
+    .site-header {
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .col {
+        width: 50%;
+        margin: auto;
+        margin-bottom: 10%;
+    }
+
+    .row {
+   
+        max-width: 90%; 
+        margin: auto;
+    }
+
+    .steps {
+
+        margin: 0;
+        padding: 5% 0;    
+    }
+
+    .steps .col {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 10%;
+    }
+       
+
+    .why-us {
+        
+        padding:5% 0;
+        margin-bottom: 0;
+     
+    }
+
+    .why-us .col-left {
+     
+       margin-bottom: 50%;
+    }
+
+   
+
+
+}
 
 @media screen and (max-width: 480px) {
 
@@ -140,7 +196,7 @@ img {
     .container {
         width: 480px;
         margin: 0 auto;
-        padding: 0 8px;
+    
     }
 
     .site-header {
@@ -188,3 +244,4 @@ img {
     }
 
 }
+
